@@ -130,10 +130,10 @@ public class Home_page
 		Hs=Hw.getSheet("Sheet1");
 		num=Hs.getRow(1).getCell(1).getStringCellValue();
 		System.out.println("number from excel"+num);
-		MachineIp=Hs.getRow(1).getCell(4).getStringCellValue();
-		System.out.println("IP from excel "+MachineIp);
-		UpdateIp="update agent_live set ip="+MachineIp+" where agent_id="+AgentId;
-                st.executeUpdate(UpdateIp);
+	//	MachineIp=Hs.getRow(1).getCell(4).getStringCellValue();
+	//	System.out.println("IP from excel "+MachineIp);
+	//	UpdateIp="update agent_live set ip="+MachineIp+" where agent_id="+AgentId;
+         //       st.executeUpdate(UpdateIp);
 		campaign_id1="select campaign_id from agent where agent_id="+AgentId;
 		rs=st.executeQuery(campaign_id1);
 		if(rs.next())
