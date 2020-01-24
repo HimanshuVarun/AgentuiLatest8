@@ -38,7 +38,7 @@ public class Home_page
 	public static  Statement st=null;
 	public static String sql,agent_live,campaign_id1,customer_table,phone_no,L_id_f_extended,dial_lead_look,p_f_d_lookup,L_id_F_d_state,p_no_F_d_state,agent_status, call_park_f_campaign,callPark,Disp,Agentid,phone1,currentReport,AgentNameCurrentReport,CampaignNameCurrentReport,CampaignTypeCurrentReport, ListNameCurrentReport,CustPhNoCurrentReport,CallEndDateTimeCurrentReport,CustDispositionCurrentReport,YearTime,AgentNameYearTime,CampaignNameYearTime,CampaignTypeYearTime,ListNameYearTime,CustPhNoYearTime,CallEndDateTimeYearTime,CustDispositionYearTime,UpdateIp;  // for query
 	public static String  dialer_type,agent_state,campaign_id,break_type,is_paused,p_no_f_dial,p_no_f_extended,agent_state_before_login,dialer_type_before_pre;
-	public static String baseUrl,AgentId,date,MachineIp="'172.16.2.80'"; //for url
+	public static String baseUrl,AgentId,date,MachineIp; //for url
     public static int  total_frame,call_count,pause_duration,break_count,autoMode,automode1,is_hold,lead_id,lead_i_f_dial,L_id_f_exte,L_id_f_D_lookup,L_id_f_state,re_d_flag,rd_flag,Agent_name_F_agent_live,agent_live_flag,leadIdCurrentReport,leadIdYearTime;
 	public static  WebDriver driver;
 	public static   FileInputStream f2;
@@ -130,7 +130,7 @@ public class Home_page
 		Hs=Hw.getSheet("Sheet1");
 		num=Hs.getRow(1).getCell(1).getStringCellValue();
 		System.out.println("number from excel"+num);
-	//	MachineIp=Hs.getRow(1).getCell(4).getStringCellValue();
+		MachineIp=Hs.getRow(1).getCell(4).getStringCellValue();
 		System.out.println("IP from excel "+MachineIp);
 		UpdateIp="update agent_live set ip="+MachineIp+" where agent_id="+AgentId;
                 st.executeUpdate(UpdateIp);
