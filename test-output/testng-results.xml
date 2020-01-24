@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="183236" started-at="2020-01-24T11:50:45Z" finished-at="2020-01-24T11:53:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="183236" started-at="2020-01-24T11:50:45Z" finished-at="2020-01-24T11:53:49Z">
+      <class name="AgentuiLatest8.AgentuiLatest8.Test_Base">
+        <test-method status="PASS" signature="before()[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="before" is-config="true" duration-ms="12948" started-at="2020-01-24T11:50:45Z" finished-at="2020-01-24T11:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="AgentLogin()[pri:1, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="AgentLogin" duration-ms="47804" started-at="2020-01-24T11:50:58Z" finished-at="2020-01-24T11:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgentLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="7" started-at="2020-01-24T11:51:46Z" finished-at="2020-01-24T11:51:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AgentLogin status=SUCCESS method=Test_Base.AgentLogin()[pri:1, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Ready_button()[pri:2, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="Ready_button" duration-ms="2731" started-at="2020-01-24T11:51:46Z" finished-at="2020-01-24T11:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ready_button -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="5" started-at="2020-01-24T11:51:49Z" finished-at="2020-01-24T11:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ready_button status=SUCCESS method=Test_Base.Ready_button()[pri:2, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preview_test()[pri:3, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="preview_test" duration-ms="3203" started-at="2020-01-24T11:51:49Z" finished-at="2020-01-24T11:51:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preview_test -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="5" started-at="2020-01-24T11:51:52Z" finished-at="2020-01-24T11:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=preview_test status=SUCCESS method=Test_Base.preview_test()[pri:3, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="progressive_test()[pri:4, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="progressive_test" duration-ms="2538" started-at="2020-01-24T11:51:52Z" finished-at="2020-01-24T11:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- progressive_test -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="3" started-at="2020-01-24T11:51:55Z" finished-at="2020-01-24T11:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=progressive_test status=SUCCESS method=Test_Base.progressive_test()[pri:4, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="break_Test()[pri:5, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="break_Test" duration-ms="2776" started-at="2020-01-24T11:51:55Z" finished-at="2020-01-24T11:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- break_Test -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="7" started-at="2020-01-24T11:51:57Z" finished-at="2020-01-24T11:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=break_Test status=SUCCESS method=Test_Base.break_Test()[pri:5, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="back_Test()[pri:6, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="back_Test" duration-ms="3164" started-at="2020-01-24T11:51:57Z" finished-at="2020-01-24T11:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back_Test -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="5" started-at="2020-01-24T11:52:01Z" finished-at="2020-01-24T11:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=back_Test status=SUCCESS method=Test_Base.back_Test()[pri:6, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="auto_mode()[pri:7, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="auto_mode" duration-ms="4432" started-at="2020-01-24T11:52:01Z" finished-at="2020-01-24T11:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_mode -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="3" started-at="2020-01-24T11:52:05Z" finished-at="2020-01-24T11:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auto_mode status=SUCCESS method=Test_Base.auto_mode()[pri:7, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Reset_auto()[pri:8, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="Reset_auto" duration-ms="2547" started-at="2020-01-24T11:52:05Z" finished-at="2020-01-24T11:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reset_auto -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="3" started-at="2020-01-24T11:52:08Z" finished-at="2020-01-24T11:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Reset_auto status=SUCCESS method=Test_Base.Reset_auto()[pri:8, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Call_test()[pri:9, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="Call_test" duration-ms="83868" started-at="2020-01-24T11:52:08Z" finished-at="2020-01-24T11:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Call_test -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="4" started-at="2020-01-24T11:53:31Z" finished-at="2020-01-24T11:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Call_test status=SUCCESS method=Test_Base.Call_test()[pri:9, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Redial()[pri:10, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="Redial" duration-ms="13631" started-at="2020-01-24T11:53:31Z" finished-at="2020-01-24T11:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Redial -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="4" started-at="2020-01-24T11:53:45Z" finished-at="2020-01-24T11:53:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Redial status=SUCCESS method=Test_Base.Redial()[pri:10, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="log()[pri:11, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="log" duration-ms="3209" started-at="2020-01-24T11:53:45Z" finished-at="2020-01-24T11:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="getResult" is-config="true" duration-ms="3" started-at="2020-01-24T11:53:48Z" finished-at="2020-01-24T11:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=log status=SUCCESS method=Test_Base.log()[pri:11, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:AgentuiLatest8.AgentuiLatest8.Test_Base@5fdba6f9]" name="endReport" is-config="true" duration-ms="291" started-at="2020-01-24T11:53:48Z" finished-at="2020-01-24T11:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- AgentuiLatest8.AgentuiLatest8.Test_Base -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
