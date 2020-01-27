@@ -58,7 +58,7 @@ public class Test_Base extends Home_page
 		Preview_button.PreviewExtent();
 		System.out.println("close  preview button test case ");
 	}
-	@Test(priority=4)
+	/*@Test(priority=4)
 	public void progressive_test() throws Exception 
 	{
 		System.out.println("start progressive button test  case");
