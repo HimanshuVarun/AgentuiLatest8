@@ -15,6 +15,8 @@ public class Ready_button extends Home_page
     	Logger log=Logger.getLogger("Ready button test case");
 		PropertyConfigurator.configure("Log4j.Properties");
 		log.info("start ready button   test case");
+		String j = driver.getTitle();
+                 System.out.println("Your page title Is : "+j);      
 		driver.switchTo().frame("crm");
 		System.out.println("enter in frame");
     	Thread.sleep(2000);
