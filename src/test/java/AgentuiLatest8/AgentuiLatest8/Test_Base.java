@@ -157,7 +157,7 @@ public class Test_Base extends Home_page
 		Redial.RedialExtent();
 	}
 
-	@Test(priority=11)
+//	@Test(priority=11)
 	public void log() throws Exception
 	{
 		Logout.logout();
