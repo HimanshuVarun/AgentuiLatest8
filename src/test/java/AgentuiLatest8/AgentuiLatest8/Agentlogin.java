@@ -13,8 +13,8 @@ public class Agentlogin extends Home_page
 {
 	public static void login() throws Exception
 	{
-	    Data();
-	    Thread.sleep(2000);
+	 //   Data();
+	   // Thread.sleep(2000);
 		try {
 			AgentId=Hs.getRow(1).getCell(3).getStringCellValue();
 			driver.findElement(By.name("agent_id")).clear();
