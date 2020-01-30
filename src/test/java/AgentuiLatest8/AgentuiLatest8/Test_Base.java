@@ -22,7 +22,6 @@ public class Test_Base extends Home_page
 		extent.addSystemInfo("Environment", "Automation Testing");
 		extent.addSystemInfo("User Name", "Himanshu");
 		Home_page.openBrowser();
-		Data();
 		logger = extent.startTest("openbrowser");
 		//Assert.assertTrue(true);
 		logger.log(LogStatus.PASS, "browser test case is pass");
