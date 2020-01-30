@@ -1,5 +1,4 @@
 package AgentuiLatest8.AgentuiLatest8 ;
-
 import java.io.PrintStream;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -58,13 +57,13 @@ public class Test_Base extends Home_page
 		Preview_button.PreviewExtent();
 		System.out.println("close  preview button test case ");
 	}
-/*	@Test(priority=4)
+	@Test(priority=4)
 	public void progressive_test() throws Exception 
 	{
 		System.out.println("start progressive button test  case");
 		Progressive.pro();
 		System.out.println("call data base method in progressive test case");
-		//	Thread.sleep(1000);
+		//Thread.sleep(1000);
 		Data();
 		System.out.println("call progressive button extent report in progressive button");
 		Progressive.ProgeressiveExtent();
@@ -165,6 +164,6 @@ public class Test_Base extends Home_page
 		Data();
 		Logout.LogoutExtent();
 	}
-*/
+
 
 }
