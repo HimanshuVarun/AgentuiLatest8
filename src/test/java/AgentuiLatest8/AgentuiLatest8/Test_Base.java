@@ -31,6 +31,7 @@ public class Test_Base extends Home_page
 	public void AgentLogin() throws Exception 
 	{
 		System.out.println("Start agent login test case");
+		Data();
 		Agentlogin.login();
 		System.out.println("Call extent report method");
 		Agentlogin.AgentLoginExtent();
