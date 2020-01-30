@@ -1,5 +1,4 @@
 package AgentuiLatest8.AgentuiLatest8 ;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +9,6 @@ import java.sql.Statement;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -28,7 +26,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.asserts.SoftAssert;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -118,8 +115,13 @@ public class Home_page
 			System.out.println("Failed to connect to  database");
 		}
 		st=con.createStatement();
-		
-	}
+         //MachineIp=Hs.getRow(1).getCell(4).getStringCellValue();
+         //System.out.println("IP from excel "+MachineIp);
+         //UpdateIp="update agent_live set ip="+MachineIp+" where agent_id="+AgentId;
+          UpdateIp="update agent_live set ip='172.16.2.60' where agent_id='2020'";
+          st.executeUpdate(UpdateIp);
+          System.out.println("IP Updated");
+     }
 	public static void Data() throws Exception
 	{
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy_MM");
@@ -130,10 +132,6 @@ public class Home_page
 		Hs=Hw.getSheet("Sheet1");
 		num=Hs.getRow(1).getCell(1).getStringCellValue();
 		System.out.println("number from excel"+num);
-	//	MachineIp=Hs.getRow(1).getCell(4).getStringCellValue();
-		System.out.println("IP from excel "+MachineIp);
-		UpdateIp="update agent_live set ip="+MachineIp+" where agent_id="+AgentId;
-                st.executeUpdate(UpdateIp);
 		campaign_id1="select campaign_id from agent where agent_id="+AgentId;
 		rs=st.executeQuery(campaign_id1);
 		if(rs.next())
