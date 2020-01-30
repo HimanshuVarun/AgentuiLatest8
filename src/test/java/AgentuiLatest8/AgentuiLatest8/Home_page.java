@@ -66,7 +66,6 @@ public class Home_page
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://"+baseUrl+"/agentui.php?");// + "agentui.php"	
 		ConnectToDataBase();
-		Data();
 		total_frame=driver.findElements(By.tagName("iframe")).size();
 		System.out.println("total frame is\t"+total_frame);
 		System.out.println("browser open");
